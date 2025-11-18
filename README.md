@@ -1,0 +1,44 @@
+# AI Research Codex Knowledge Base
+
+> **Status:** Phase 1 – Foundation
+
+## Purpose
+This repository is my long-term, Codex-driven knowledge base for automations, prompts, reusable workflows, and practical lessons. Everything is tuned for daily referencing, fast retrieval, and incremental growth so I can onboard Codex (web, VS Code, CLI) into any task without reinventing the wheel.
+
+## Using this repo with ChatGPT Codex
+### Web interface
+Paste prompt templates or lesson snippets directly into ChatGPT Codex on the web, and keep links to relevant files ready so the agent can reference them quickly. Use the `references/` directory to point Codex to supporting context before asking for help.
+
+### VS Code integration
+Open this repo in VS Code with the Codex extension or ChatGPT sidebar, then highlight any file or folder to let Codex reason over it. The `agents/` directory defines reusable `.agent.md` briefs that Codex can run in-editor to scaffold reviews, documentation, or tests.
+
+### CLI workflow
+From the Codex CLI (running in WSL), stream prompts from `prompts/`, execute helper scripts in `scripts/`, and ask Codex to modify files directly. Keep command history or shell snippets in `workflows/` so Codex agents can replay proven automations.
+
+## Repository layout
+- `docs/` – project overview, contribution guidance, and workflow references.
+- `lessons/` – structured, step-by-step guides (Phase 3).
+- `cheatsheets/` – quick reference tables and short reminders (Phase 3).
+- `prompts/` – reusable prompt templates and patterns.
+- `agents/` – Codex agent definitions (`*.agent.md`) for recurring tasks (Phase 2).
+- `scripts/` – helper scripts or command snippets that pair with Codex prompts.
+- `references/` – curated articles, personal notes, and link collections.
+- `workflows/` – end-to-end examples of Codex-driven processes (Phase 3).
+
+## Getting started
+1. Clone the repo and open it in VS Code or your preferred terminal.
+2. Read `docs/project_overview.md` to understand the vision and roadmap.
+3. Skim `docs/contributing.md` for naming conventions and style rules before adding content.
+4. Drop any immediate prompts or notes into the relevant directories, using the template patterns in each folder's README.
+
+## Navigation guide
+- Use the folder-level README files to understand how to organize new entries.
+- Each prompt, lesson, or workflow should link back to related references and agents for quick cross-navigation.
+- Search via VS Code or `rg` for tags like `#workflow`, `#prompt`, or topic-specific keywords to jump to relevant assets.
+- When working in Codex, supply file paths (for example `prompts/review/quick_review.md`) so the agent can open them instantly.
+
+## Phase 2 documentation
+The Phase 2 agent system and interface guide will live in [`docs/project_overview.md#phase-2-agent-system`](docs/project_overview.md#phase-2-agent-system). All future links in the repo will point there once Phase 2 ships.
+
+---
+Need help deciding what to add next? Check the roadmap at the end of `docs/project_overview.md` for the upcoming phases.

@@ -1,0 +1,44 @@
+# OS artifacts
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor settings
+dotenv
+.vscode/
+.idea/
+*.code-workspace
+
+# Python virtual environments
+.venv/
+venv/
+ENV/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Node / tooling caches
+node_modules/
+.npm/
+.yarn/
+
+# Local secrets
+.env
+.env.*
+.env.local
+.envrc
+
+# Generated content
+*.html
+*.pdf
+site/
+
+# Backup files
+*~

@@ -1,0 +1,2 @@
+# References Directory
+Use this space to capture curated links, article summaries, meeting notes, or decision logs that inform Codex workflows. Group related notes in subfolders (for example `references/git/` or `references/architecture/`) and tag sections with keywords for fast search. Each reference should cross-link to relevant prompts, agents, or workflows so Codex can pull just-in-time context.
