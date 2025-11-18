@@ -1,0 +1,2 @@
+# Prompts Directory
+Store reusable prompt templates, organized by domain (`review/`, `testing/`, `docs/`, etc.). Each Markdown file should include sections for context, instructions, input variables, and optional guardrails or follow-up questions. Reference related agents or workflows so Codex knows how to apply the prompt. Use this folder as the source of truth when launching automations from the web, IDE, or CLI.

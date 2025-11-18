@@ -1,0 +1,2 @@
+# Scripts Directory
+Helper scripts in this folder support Codex-driven workflows, such as exporting diffs, normalizing prompts, or running repeatable test suites. Keep scripts lightweight, well-documented, and interface-aware (note whether they pair with CLI, VS Code tasks, or web uploads). Include sample usage commands at the bottom of each script so Codex can reference them when automating tasks.
