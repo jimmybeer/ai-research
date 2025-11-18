@@ -37,6 +37,16 @@ From the Codex CLI (running in WSL), stream prompts from `prompts/`, execute hel
 - Search via VS Code or `rg` for tags like `#workflow`, `#prompt`, or topic-specific keywords to jump to relevant assets.
 - When working in Codex, supply file paths (for example `prompts/review/quick_review.md`) so the agent can open them instantly.
 
+## Phase 2 guides & agents
+- [Codex Interfaces Guide](docs/codex_interfaces_guide.md) – compare web, IDE, and CLI usage and learn when to switch surfaces.
+- [Agent System Guide](docs/agent_system_guide.md) – understand how `.agent.md` files work and how to create your own.
+- [Getting Started Walkthrough](docs/getting_started_walkthrough.md) – run three starter exercises across web, IDE, and CLI.
+- Agent quick reference (see `agents/` for details):
+  - `repo_teacher.agent.md` – turns repo knowledge into lessons and cheat sheets.
+  - `workflow_architect.agent.md` – designs automation workflows with interface recommendations.
+  - `prompt_librarian.agent.md` – curates and improves prompt templates.
+  - `codex_interface_advisor.agent.md` – selects the best interface and troubleshoots setup issues.
+
 ## Phase 2 documentation
 The Phase 2 agent system and interface guide will live in [`docs/project_overview.md#phase-2-agent-system`](docs/project_overview.md#phase-2-agent-system). All future links in the repo will point there once Phase 2 ships.
 
