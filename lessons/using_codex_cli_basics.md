@@ -37,10 +37,10 @@ The Codex CLI is your automation workhorse: it lets you combine prompts, agents,
 > **Pitfall:** forgetting to export environment variables in WSL results in `401 Unauthorized`. Add `export CODEX_API_KEY=...` to `~/.bashrc`.
 
 ### 2.2 Running a prompt file
-1. Create or locate a prompt file, e.g., `prompts/review/quick_checklist.md`.
+1. Create or locate a prompt file, e.g., `prompts/code/quick_checklist.md`.
 2. Run:
    ```bash
-   codex chat -p prompts/review/quick_checklist.md -o references/session_logs/$(date +%F)-review.log
+   codex chat -p prompts/code/quick_checklist.md -o references/session_logs/$(date +%F)-review.log
    ```
 3. The `-o` flag stores the transcript; open it later to capture learnings.
 
