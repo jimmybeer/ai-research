@@ -58,6 +58,18 @@ From the Codex CLI (running in WSL), stream prompts from `prompts/`, execute hel
 | Prompts | Code: `code_review_checklist`, Docs: `readme_generator`, Learning: `concept_explainer` |
 | Workflows | [`workflows/creating_a_new_lesson.md`](workflows/creating_a_new_lesson.md) |
 
+## Repository status & planning
+- [Repository Status](docs/repository_status.md) – audit checklist covering phases, structure, and validation steps.
+- [Maintenance Guide](docs/maintenance_guide.md) – weekly/monthly/quarterly tasks, quality standards, and safety practices.
+- [Future Extensions](docs/future_extensions.md) – roadmap ideas for tagging, automation, templates, and integrations.
+- [Dashboard](docs/dashboard.md) – track stats, recent activity, and learning progress.
+
+## Success metrics
+- Time saved on repetitive workflows by reusing prompts, workflows, and agents.
+- Number of lessons, prompts, and cheatsheets actively in use and updated.
+- Confidence switching between web/IDE/CLI interfaces thanks to the guide and quick start exercises.
+- Regular adherence to the maintenance checklist and logging habits in `references/`.
+
 ## Phase 2 guides & agents
 - [Codex Interfaces Guide](docs/codex_interfaces_guide.md) – compare web, IDE, and CLI usage and learn when to switch surfaces.
 - [Agent System Guide](docs/agent_system_guide.md) – understand how `.agent.md` files work and how to create your own.
