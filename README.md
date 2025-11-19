@@ -37,6 +37,27 @@ From the Codex CLI (running in WSL), stream prompts from `prompts/`, execute hel
 - Search via VS Code or `rg` for tags like `#workflow`, `#prompt`, or topic-specific keywords to jump to relevant assets.
 - When working in Codex, supply file paths (for example `prompts/review/quick_review.md`) so the agent can open them instantly.
 
+## Try it now
+- [Lesson: Using Codex CLI Basics](lessons/using_codex_cli_basics.md) – configure the CLI, run prompts/agents, and log results.
+- [Cheatsheet: Codex CLI Commands](cheatsheets/codex_cli_commands.md) – copy/paste-ready commands and troubleshooting tips.
+- Prompts to experiment with:
+  - `prompts/code/code_review_checklist.md`
+  - `prompts/documentation/readme_generator.md`
+  - `prompts/learning/concept_explainer.md`
+
+## Quick start
+- Follow the [Getting Started Walkthrough](docs/getting_started_walkthrough.md) for three guided exercises (web, IDE, CLI).
+- Run the Repository Teacher Agent to convert your first CLI session log into a lesson draft.
+- Use the Codex CLI cheatsheet side-by-side while working through the lesson.
+
+## Content overview
+| Category | Highlights |
+| --- | --- |
+| Lessons | [`lessons/using_codex_cli_basics.md`](lessons/using_codex_cli_basics.md) |
+| Cheatsheets | [`cheatsheets/codex_cli_commands.md`](cheatsheets/codex_cli_commands.md) |
+| Prompts | Code: `code_review_checklist`, Docs: `readme_generator`, Learning: `concept_explainer` |
+| Workflows | [`workflows/creating_a_new_lesson.md`](workflows/creating_a_new_lesson.md) |
+
 ## Phase 2 guides & agents
 - [Codex Interfaces Guide](docs/codex_interfaces_guide.md) – compare web, IDE, and CLI usage and learn when to switch surfaces.
 - [Agent System Guide](docs/agent_system_guide.md) – understand how `.agent.md` files work and how to create your own.
